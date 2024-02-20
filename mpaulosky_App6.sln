@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApp", "src\BlogApp\BlogApp.csproj", "{981E1857-3B86-4237-8C3F-F3A3EE497F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. SolutionFolder", "1. SolutionFolder", "{CD5F20EE-959F-4BD9-9642-4F5163E3770E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		codecov.yml = codecov.yml
+		CONTRIBUTING.md = CONTRIBUTING.md
+		Global.json = Global.json
+		LICENSE = LICENSE
+		README.md = README.md
+		REFERENCES.md = REFERENCES.md
+		runsettings.xml = runsettings.xml
+		SECURITY.md = SECURITY.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. SRC", "2. SRC", "{586CBB4F-C23F-4D87-9465-5720DF572AAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{C57EE29B-4386-40C0-877D-0DDB815F0C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlogs.Tests.BUnit", "src\tests\BlazorBlog.Tests.BUnit\BlazorBlogs.Tests.BUnit.csproj", "{A8D8FA53-8632-4690-B7BC-706B41402FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlogs.Tests.Integration", "src\tests\BlazorBlog.Tests.Integration\BlazorBlogs.Tests.Integration.csproj", "{1370EB75-8C5A-4850-A99B-B6D99654E984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlogs.Tests.Unit", "src\tests\BlazorBlog.Tests.Unit\BlazorBlogs.Tests.Unit.csproj", "{97982D6C-1875-43F2-AE77-5DEC628FD199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSupport.Library", "src\tests\TestingSupport.Library\TestingSupport.Library.csproj", "{E6BC2358-BAA7-46A4-9187-C0D2C04CA3AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{981E1857-3B86-4237-8C3F-F3A3EE497F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981E1857-3B86-4237-8C3F-F3A3EE497F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981E1857-3B86-4237-8C3F-F3A3EE497F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981E1857-3B86-4237-8C3F-F3A3EE497F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D8FA53-8632-4690-B7BC-706B41402FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D8FA53-8632-4690-B7BC-706B41402FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D8FA53-8632-4690-B7BC-706B41402FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D8FA53-8632-4690-B7BC-706B41402FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1370EB75-8C5A-4850-A99B-B6D99654E984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1370EB75-8C5A-4850-A99B-B6D99654E984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1370EB75-8C5A-4850-A99B-B6D99654E984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1370EB75-8C5A-4850-A99B-B6D99654E984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97982D6C-1875-43F2-AE77-5DEC628FD199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97982D6C-1875-43F2-AE77-5DEC628FD199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97982D6C-1875-43F2-AE77-5DEC628FD199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97982D6C-1875-43F2-AE77-5DEC628FD199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BC2358-BAA7-46A4-9187-C0D2C04CA3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BC2358-BAA7-46A4-9187-C0D2C04CA3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BC2358-BAA7-46A4-9187-C0D2C04CA3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BC2358-BAA7-46A4-9187-C0D2C04CA3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{981E1857-3B86-4237-8C3F-F3A3EE497F06} = {586CBB4F-C23F-4D87-9465-5720DF572AAF}
+		{A8D8FA53-8632-4690-B7BC-706B41402FE5} = {C57EE29B-4386-40C0-877D-0DDB815F0C54}
+		{1370EB75-8C5A-4850-A99B-B6D99654E984} = {C57EE29B-4386-40C0-877D-0DDB815F0C54}
+		{97982D6C-1875-43F2-AE77-5DEC628FD199} = {C57EE29B-4386-40C0-877D-0DDB815F0C54}
+		{E6BC2358-BAA7-46A4-9187-C0D2C04CA3AA} = {C57EE29B-4386-40C0-877D-0DDB815F0C54}
+	EndGlobalSection
+EndGlobal
